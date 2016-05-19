@@ -3,7 +3,7 @@ $(document).ready(function () {
     // Script du menu / carroussel
 
     $('.owl-carousel').owlCarousel({
-
+        responsiveClass: true,
         responsive: {
             0: {
                 items: 4
@@ -169,11 +169,7 @@ $(document).ready(function () {
         $(this).children(".ripple").remove();
         $(this).append("<div class=\"ripple\"</div>");
         $(this).children(".ripple").css({"left": cursorX + "px", "top": cursorY + "px"})
-    });
-
-    //Effet Switch de formulaires
-
-    $(".formulaire2")
+    })
 });
 
 
