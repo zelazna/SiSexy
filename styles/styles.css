@@ -215,8 +215,8 @@ nav.quick-access {
     height: 45px;
 }
 
-.formulaire input[type="button"],
-.formulaire input[type="submit"] {
+.formulaire button[type="button"],
+.formulaire button[type="submit"] {
     background-color: #e95f18;
     border: 1px solid #e95f18;
     display: inline-block;
@@ -228,8 +228,8 @@ nav.quick-access {
     margin-left: 155px;
 }
 
-.formulaire input[type="button"]:hover,
-.formulaire input[type="submit"]:hover {
+.formulaire button[type="button"]:hover,
+.formulaire button[type="submit"]:hover {
     background: #e95f18 linear-gradient(to bottom, #e95f18 5%, #e95f18 100%);
     margin: 0 auto 0 155px;
 }
@@ -294,8 +294,8 @@ nav.quick-access {
     height: 45px;
 }
 
-.formulaire2 input[type="button"],
-.formulaire2 input[type="submit"] {
+.formulaire2 button[type="button"],
+.formulaire2 button[type="submit"] {
     background-color: #e95f18;
     border: 1px solid #e95f18;
     display: inline-block;
@@ -307,8 +307,8 @@ nav.quick-access {
     margin-left: 155px;
 }
 
-.formulaire2 input[type="button"]:hover,
-.formulaire2 input[type="submit"]:hover {
+.formulaire2 button[type="button"]:hover,
+.formulaire2 button[type="submit"]:hover {
     background: #e95f18 linear-gradient(to bottom, #e95f18 5%, #e95f18 100%);
     margin: 0 auto 0 155px;
 }
@@ -375,8 +375,8 @@ nav.quick-access {
     height: 45px;
 }
 
-.formulaire3 input[type="button"],
-.formulaire3 input[type="submit"] {
+.formulaire3 button[type="button"],
+.formulaire3 button[type="submit"] {
     background-color: #e95f18;
     border: 1px solid #e95f18;
     display: inline-block;
@@ -388,8 +388,8 @@ nav.quick-access {
     margin-left: 155px;
 }
 
-.formulaire3 input[type="button"]:hover,
-.formulaire3 input[type="submit"]:hover {
+.formulaire3 button[type="button"]:hover,
+.formulaire3 button[type="submit"]:hover {
     background: #e95f18 linear-gradient(to bottom, #e95f18 5%, #e95f18 100%);
     margin: 0 auto 0 155px;
 }
@@ -418,7 +418,7 @@ nav.quick-access {
 /* Debut formulaire_montage */
 #formulaire_montage {
     width: 335px;
-    height: 120px;
+    height: 100px;
     padding: 30px;
     background: #FFFFFF;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.22);
@@ -455,23 +455,23 @@ nav.quick-access {
     margin-bottom: 10px;
 }
 
-#formulaire_montage input[type="button"],
-#formulaire_montage input[type="submit"] {
+#formulaire_montage button[type="button"],
+#formulaire_montage button[type="submit"] {
     background-color: #e95f18;
     border: 1px solid #e95f18;
     display: inline-block;
     cursor: pointer;
     color: #FFFFFF;
     font-size: 14px;
-    padding: 81px 25px;
+    padding: 71px 25px;
     text-decoration: none;
     float: right;
-    margin-right: -70px;
+    margin-right: -91px;
     margin-top: -112px;
 }
 
-#formulaire_montage input[type="button"]:hover,
-#formulaire_montage input[type="submit"]:hover {
+#formulaire_montage button[type="button"]:hover,
+#formulaire_montage button[type="submit"]:hover {
     background: #e95f18 linear-gradient(to bottom, #e95f18 5%, #e95f18 100%);
 
 }
@@ -529,7 +529,7 @@ nav.quick-access {
 /* Fin de l'effet */
 
 .traitgauche {
-    border-right: 40px solid #e95f18;
+    border-right: 65px solid #e95f18;
     padding-left: 5px;
     margin-left: 50px;
     cursor: pointer;
@@ -609,6 +609,7 @@ th:last-child {
 /* bloc_categorie */
 
 .categorie_text {
+    font-weight: 300;
     color: #e95f18;
     padding-bottom: 20px;
     text-align: -webkit-left;
@@ -621,7 +622,10 @@ th:last-child {
     text-align: center; /* centrer le texte */
     margin: 50px auto 0;
     padding: 15px 0 0;
-    background-color: #eceff1;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.22);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.22);
 }
 
 /* Fin bloc_categorie */
@@ -660,7 +664,7 @@ th:last-child {
 
 /* Debut formulaire_montage */
 #formulaire_magasin {
-    width: 880px;
+    width: 852px;
     padding: 30px;
     background: #FFFFFF;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.22);
@@ -670,10 +674,24 @@ th:last-child {
     position: relative;
     float: right;
     margin: 40px 0 0 auto;
+
+}
+form h2{
+    color: #78909c;
+    font-weight: 300;
+}
+#formulaire_magasin span{
+
+    position: absolute;
+    color: #fff;
+    right: 0;
+    bottom: 50%;
+    margin-right: -37px;
+
 }
 #formulaire_magasin form{
     float: right;
-    width: 65%;
+    width: 63%;
 }
 
 #formulaire_magasin input[type="text"],
@@ -700,8 +718,8 @@ th:last-child {
     font: 16px Arial, Helvetica, sans-serif;
 }
 
-#formulaire_magasin input[type="button"],
-#formulaire_magasin input[type="submit"] {
+#formulaire_magasin button[type="button"],
+#formulaire_magasin button[type="submit"] {
     background-color: #e95f18;
     border: 1px solid #e95f18;
     display: inline-block;
@@ -713,8 +731,8 @@ th:last-child {
     margin-left: 155px;
 }
 
-#formulaire_magasin input[type="button"]:hover,
-#formulaire_magasin input[type="submit"]:hover {
+#formulaire_magasin button[type="button"]:hover,
+#formulaire_magasin button[type="submit"]:hover {
     background: #e95f18 linear-gradient(to bottom, #e95f18 5%, #e95f18 100%);
     margin: 0 auto 0 155px;
 }
@@ -736,10 +754,12 @@ th:last-child {
 /* Fin bloc_categorie */
 
 .garage_text {
+    font-weight: 300;
     color: #e95f18;
 }
 
 .garage_text2 {
+    font-weight: 300;
     color: #e95f18;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -752,7 +772,7 @@ th:last-child {
 /* Debut formulaire_montage */
 #formulaire_newsletter {
     width: 335px;
-    padding: 30px;
+    padding: 30px 30px 0;
     background: #FFFFFF;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.22);
     -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.22);
@@ -762,6 +782,7 @@ th:last-child {
     float: right;
     margin: 200px 0 -35px auto;
 }
+
 
 #formulaire_newsletter input[type="text"],
 #formulaire_newsletter input[type="date"],
@@ -788,23 +809,24 @@ th:last-child {
     margin-bottom: 10px;
 }
 
-#formulaire_newsletter input[type="button"],
-#formulaire_newsletter input[type="submit"] {
+#formulaire_newsletter button[type="button"],
+#formulaire_newsletter button[type="submit"] {
     background-color: #e95f18;
     border: 1px solid #e95f18;
     display: inline-block;
     cursor: pointer;
     color: #FFFFFF;
     font-size: 14px;
-    padding: 8px 18px;
+    padding: 71px 25px;
     text-decoration: none;
-    margin-left: 155px;
+    float: right;
+    margin-right: -91px;
+    margin-top: -112px;
 }
 
-#formulaire_newsletter input[type="button"]:hover,
-#formulaire_newsletter input[type="submit"]:hover {
+#formulaire_newsletter button[type="button"]:hover,
+#formulaire_newsletter button[type="submit"]:hover {
     background: #e95f18 linear-gradient(to bottom, #e95f18 5%, #e95f18 100%);
-    margin: 0 auto 0 155px;
 }
 
 /* Fin formulaire_montage */
@@ -816,7 +838,7 @@ footer {
 }
 
 #copyright {
-    margin-top: 50px;
+    margin: 50px auto  0;
     width: 980px;
     font-size: 14px;
     padding: 30px 40px 40px 40px;
