@@ -165,7 +165,6 @@ $(document).ready(function () {
         var parentOffset = $(this).offset(),
             cursorX = e.pageX - parentOffset.left,
             cursorY = e.pageY - parentOffset.top;
-        console.log(cursorX);
         $(this).children(".ripple").remove();
         $(this).append("<div class=\"ripple\"</div>");
         $(this).children(".ripple").css({"left": cursorX + "px", "top": cursorY + "px"})
