@@ -3,16 +3,15 @@ $(document).ready(function () {
     // Script du menu / carroussel
 
     $('.owl-carousel').owlCarousel({
-        responsiveClass: true,
         responsive: {
             0: {
-                items: 2
-            },
-            600: {
                 items: 4
             },
+            600: {
+                items: 5
+            },
             1000: {
-                items: 8
+                items: 11
             }
         }
     });
