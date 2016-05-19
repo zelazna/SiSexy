@@ -2,13 +2,8 @@
 body {
     font-family: 'Open Sans', sans-serif;
     color: #263238;
-
 }
 
-h1{
-    font-weight: 300;
-    font-size: 24px;
-}
 header {
     width: 100%;
     margin: 0 auto;
@@ -62,6 +57,7 @@ nav.quick-access {
 }
 
 .quick-access li {
+
     float: left;
     list-style-type: none;
     display: inherit;
@@ -74,9 +70,13 @@ nav.quick-access {
     margin: 0;
     text-align: center; /* centrer le texte */
 }
+.quick-access span{
+    font-size: 20px;
+}
 
 /* les a href */
 .quick-access a {
+
     text-decoration: none;
     display: block;
     padding: 10px 10px;
@@ -144,7 +144,7 @@ nav.quick-access {
 
 .post-title-contenu {
     width: 100%;
-    height: 100%;
+    height: 400px;
     margin: 0 auto;
     z-index: 2;
     position: absolute;
@@ -153,7 +153,7 @@ nav.quick-access {
 }
 
 .post-title-contenu h1 {
-
+    width: 100%;
     font-size: 21px;
     color: #FFF;
     font-family: 'Open Sans', sans-serif;
@@ -164,7 +164,7 @@ nav.quick-access {
 
 .fond-img-contenu {
     width: 100%;
-    height: 93vh;
+    height: 750px;
     position: absolute;
     z-index: 1;
     background-image: url('../images/fond.png');
@@ -243,8 +243,6 @@ nav.quick-access {
 .zone_formulaire {
     width: 980px;
     margin: 0 auto;
-    height: 10vh;
-
 }
 /* Debut formulaire 2 */
 .formulaire2 {
@@ -546,7 +544,6 @@ nav.quick-access {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.22);
     width: 980px;
     float: left;
-    background-color: #fff;
 }
 
 /* Conseil */
@@ -623,8 +620,11 @@ th:last-child {
     text-align: -webkit-left;
 }
 
+.owl-carousel{
+    width: 980px!important;
+}
 .bloc_categorie {
-    height: 800px;
+    height: 750px;
     width: 980px;
     float: left;
     text-align: center; /* centrer le texte */
@@ -641,7 +641,7 @@ th:last-child {
 .bloc_categorie li {
     float: left;
     margin-top: 10px;
-    padding: 2.5%;
+    padding: 8px;
     position: relative;
     list-style-type: none;
 }
@@ -685,7 +685,7 @@ th:last-child {
 
 }
 form h2{
-    color: #263238;
+    color: #78909c;
     font-weight: 300;
 }
 #formulaire_magasin span{
@@ -694,11 +694,8 @@ form h2{
     color: #fff;
     right: 0;
     bottom: 50%;
-    margin-right: -40px;
+    margin-right: -37px;
 
-}
-.mention_text{
-    font-weight: 700;
 }
 #formulaire_magasin form{
     float: right;
@@ -929,14 +926,14 @@ footer {
     }
 }
 @font-face {
-font-family: 'icomoon';
-src:    url('../assets/fonts/icomoon.eot?2zbd3o');
-src:    url('../assets/fonts/icomoon.eot?2zbd3o#iefix') format('embedded-opentype'),
-url('../assets/fonts/icomoon.ttf?2zbd3o') format('truetype'),
-url('../assets/fonts/icomoon.woff?2zbd3o') format('woff'),
-url('../assets/fonts/icomoon.svg?2zbd3o#icomoon') format('svg');
-font-weight: normal;
-font-style: normal;
+    font-family: 'icomoon';
+    src:    url('../assets/fonts/icomoon.eot?pnn88c');
+    src:    url('../assets/fonts/icomoon.eot?pnn88c#iefix') format('embedded-opentype'),
+    url('../assets/fonts/icomoon.ttf?pnn88c') format('truetype'),
+    url('../assets/fonts/icomoon.woff?pnn88c') format('woff'),
+    url('../assets/fonts/icomoon.svg?pnn88c#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 [class^="icon-"], [class*=" icon-"] {
@@ -954,6 +951,9 @@ font-style: normal;
     -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-shop2:before {
+    content: "\e964";
+}
 .icon-add:before {
     content: "\e900";
 }
@@ -1004,7 +1004,6 @@ font-style: normal;
 }
 .icon-cursor:before {
     content: "\e910";
-    font-size: 20px;
 }
 .icon-cursor-1:before {
     content: "\e911";
