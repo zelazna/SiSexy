@@ -60,42 +60,48 @@
 
 </div>
 <!-- formulaire -->
-<div class="zone_formulaire container">
-    <div class="formulaire">
-        <h2>Par marque</h2>
-        <form>
-            <input type="text" name="field1" placeholder="Votre marque"/>
-            <input type="text" name="field2" placeholder="Modèle"/>
-            <input type="text" name="field3" placeholder="Motorisation"/>
-            <button class="button" type="button">Rechercher</button>
-        </form>
+<div class="container">
+    <div class="zone_formulaire" id="carousel">
+        <figure class="formulaire">
+            <h2>Par marque</h2>
+            <form>
+                <input type="text" name="field1" placeholder="Votre marque"/>
+                <input type="text" name="field2" placeholder="Modèle"/>
+                <input type="text" name="field3" placeholder="Motorisation"/>
+                <button class="button" type="button">Rechercher</button>
+            </form>
+        </figure>
+
+        <figure class="formulaire2">
+            <h2>Par carte grise</h2>
+            <form>
+                <p>Entrez le type mine de votre voiture</p>
+                <input type="text" name="field1" placeholder="Ex:DE14K2"/>
+                <p class="type_mine">Où trouver mon type mine ?</p>
+                <button class="button" type="button">Rechercher</button>
+            </form>
+        </figure>
+
+        <figure class="formulaire3">
+            <h2>Par immatriculation</h2>
+            <form>
+                <p>Entrez votre numéro d’immatriculation :</p>
+                <input type="text" name="field1" placeholder="Ex:DE14K2"/>
+                <p>EX:AB - 123 - CD</p>
+                <button class="button" type="button">Rechercher</button>
+            </form>
+        </figure>
     </div>
-
-    <div class="formulaire2">
-        <h2>Par carte grise</h2>
-        <form>
-            <p>Entrez le type mine de votre voiture</p>
-            <input type="text" name="field1" placeholder="Ex:DE14K2"/>
-            <p class="type_mine">Où trouver mon type mine ?</p>
-            <button class="button" type="button">Rechercher</button>
-        </form>
-    </div>
-
-
-    <div class="formulaire3">
-        <h2>Par immatriculation</h2>
-        <form>
-            <p>Entrez votre numéro d’immatriculation :</p>
-            <input type="text" name="field1" placeholder="Ex:DE14K2"/>
-            <p>EX:AB - 123 - CD</p>
-            <button class="button" type="button">Rechercher</button>
-        </form>
-    </div>
-
 </div>
 
 <div id="wrapper-contenu">
     <!-- Bannière -->
+    <section id="options">
+        <p id="navigation">
+            <button id="previous" data-increment="-1">Previous</button>
+            <button id="next" data-increment="1">Next</button>
+        </p>
+    </section>
 
     <div class="bloc_client">
         <div class="banniere"><img src="images/pub.png"></div>
@@ -118,7 +124,8 @@
         </table>
 
         <div class="description">
-            <h1 class="description_text">Yakarouler le spécialiste de la vente de <strong>pièces auto</strong> à prix <strong>discount</strong></h1>
+            <h1 class="description_text">Yakarouler le spécialiste de la vente de <strong>pièces auto</strong> à prix
+                <strong>discount</strong></h1>
             <p>Pièces auto, accessoires, Yakarouler vous propose depuis bientôt 10 ans plus de 800 000 références parmi
                 les plus grandes marques. Plaquettes de frein, embrayage, filtre à air... Vous avez le choix. Toutes les
                 pièces détachées sont neuves et d’origine, le tout à prix discount ! N’hésitez plus et trouvez la pièce
@@ -133,7 +140,8 @@
     <div class="bloc_categorie">
 
         <div class="categorie">
-            <h2 class="categorie_text"><img src="" alt=""><span class="icon-bookmark"></span> Toutes les <strong>catégories</strong></h2>
+            <h2 class="categorie_text"><img src="" alt=""><span class="icon-bookmark"></span> Toutes les <strong>catégories</strong>
+            </h2>
 
             <!-- Categorie 1-->
 
@@ -322,6 +330,7 @@
 </footer>
 
 <script src="assets/jquery-2.2.3.js"></script>
+<script src="assets/modernizr.js"></script>
 <script src="assets/jquery-ui-1.11.4/jquery-ui.min.js"></script>
 <script src="assets/owl.carousel.2.0.0-beta.2.4/owl.carousel.min.js"></script>
 <script src="scripts/main.js"></script>

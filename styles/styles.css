@@ -140,6 +140,7 @@ nav.quick-access {
 .post-cover-contenu {
     position: relative;
     height: 600px;
+    z-index: -1;
 }
 
 .post-back-contenu {
@@ -171,7 +172,7 @@ nav.quick-access {
     width: 100%;
     height: 93vh;
     position: absolute;
-    z-index: 1;
+    z-index: -1;
     background-image: url('../images/fond.png');
     background-size: cover;
 }
@@ -1277,9 +1278,6 @@ footer {
 }
 
 #carousel {
-    width: 100%;
-    height: 100%;
-    position: absolute;
     -webkit-transform: translateZ(-288px);
     -moz-transform: translateZ(-288px);
     -o-transform: translateZ(-288px);
@@ -1295,39 +1293,30 @@ footer {
 }
 
 #carousel figure {
-    display: block;
-    position: absolute;
-    width: 186px;
-    height: 116px;
-    left: 10px;
-    top: 10px;
-    border: 2px solid black;
-    line-height: 116px;
-    font-size: 80px;
-    font-weight: bold;
-    color: white;
-    text-align: center;
+    /*position: absolute;*/
+    /*left: 10px;*/
+    /*top: 10px;*/
 }
 
 #carousel figure:nth-child(1) {
-    -webkit-transform: rotateY(0deg) translateZ(288px);
-    -moz-transform: rotateY(0deg) translateZ(288px);
-    -o-transform: rotateY(0deg) translateZ(288px);
-    transform: rotateY(0deg) translateZ(288px);
+    -webkit-transform: rotateY(0deg) translateZ(300px);
+    -moz-transform: rotateY(0deg) translateZ(300px);
+    -o-transform: rotateY(0deg) translateZ(300px);
+    transform: rotateY(0deg) translateZ(300px);
 }
 
 #carousel figure:nth-child(2) {
-    -webkit-transform: rotateY(40deg) translateZ(288px);
-    -moz-transform: rotateY(40deg) translateZ(288px);
-    -o-transform: rotateY(40deg) translateZ(288px);
-    transform: rotateY(40deg) translateZ(288px);
+    -webkit-transform: rotateY(300deg) translateZ(160px);
+    -moz-transform: rotateY(300deg) translateZ(160px);
+    -o-transform: rotateY(300deg) translateZ(160px);
+    transform: rotateY(300deg) translateZ(160px);
 }
 
 #carousel figure:nth-child(3) {
-    -webkit-transform: rotateY(320deg) translateZ(288px);
-    -moz-transform: rotateY(320deg) translateZ(288px);
-    -o-transform: rotateY(320deg) translateZ(288px);
-    transform: rotateY(320deg) translateZ(288px);
+    -webkit-transform: rotateY(420deg) translateZ(160px);
+    -moz-transform: rotateY(420deg) translateZ(160px);
+    -o-transform: rotateY(420deg) translateZ(160px);
+    transform: rotateY(420deg) translateZ(160px);
 }
 
 
