@@ -22,9 +22,9 @@
 
         <nav class="quick-access">
             <ul>
-                <li><img src="images/profile.png" alt="" class="icone-menu"><a href="">Magasins</a></li>
-                <li><img src="images/shopping-cart.png" alt="" class="icone-menu"><a href="">Panier</a></li>
-                <li><img src="images/profile.png" alt="" class="icone-menu"><a href="" class="connexion">Connexion</a>
+                <li><span class="icone-menu icon-shop2"></span><a href="">Magasins</a></li>
+                <li><span class="icone-menu icon-shopping-cart"></span><a href="">Panier</a></li>
+                <li><span class="icone-menu icon-profile orange"></span><a href="" class="connexion">Connexion</a>
                 </li>
             </ul>
         </nav>
@@ -79,7 +79,7 @@
             <form>
                 <h2>Trouvez un centre de <strong>montage </strong>:</h2>
                 <input type="text" name="field1" placeholder="Code postal"/>
-                <input type="button" value=">"/>
+                <button type="submit" class="icon-right-arrow"></button>
             </form>
         </div>
 
@@ -114,7 +114,7 @@
     <div class="bloc_categorie">
 
         <div class="categorie">
-            <h2 class="categorie_text"><img src="" alt="">Toutes les catégories</h2>
+            <h2 class="categorie_text"><img src="" alt=""><span class="icon-bookmark"></span> Toutes les <strong>catégories</strong></h2>
 
             <!-- Categorie 1-->
 
@@ -227,8 +227,8 @@
     <div id="formulaire_magasin" class="traitgauche">
         <iframe width="300" height="250" frameborder="0" style="border:0 ;margin: -30px"
                 src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ2yvlwt965kcRtFG1kccI6S0&key=AIzaSyAW4pAJk5gCLh3gYE8rzSywOhaT_ILgNWI" allowfullscreen></iframe>
-        <form style="float: right">
-            <h1 class="garage_text"><img src="" alt="">Garages à proximité</h1>
+        <form class="formulaire_magasin_adress">
+            <h1 class="garage_text"><img src="" alt=""><span class="icon-cursor"></span><strong> Garages</strong> à proximité</h1>
             <h2 class="garage_text2">Ouvert de 8h à 20h</h2>
             <p><strong>Pièce Autoto Yakarouler</strong></p>
             <p>100 Avenue André Morizet</p>
@@ -236,6 +236,7 @@
             <p>01 70 44 75 75</p>
 
         </form>
+
     </div>
 
 
@@ -244,7 +245,7 @@
         <form>
             <h2>Abonnez-vous à la <strong>newsletter </strong></h2>
             <input type="text" name="field1" placeholder="Ex:email@mail.com"/>
-            <input type="button" value=">"/>
+            <button type="submit" class="icon-right-arrow"></button>
         </form>
     </div>
 
