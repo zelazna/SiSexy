@@ -3,7 +3,6 @@ $(document).ready(function () {
     // Script du menu / carroussel
 
     $('.owl-carousel').owlCarousel({
-        loop: true,
         responsive: {
             0: {
                 items: 2
