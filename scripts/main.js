@@ -1,23 +1,21 @@
 $(document).ready(function () {
 
-    //Script du menu/carroussel
+    // Script du menu / carroussel
 
-    // $('.owl-carousel').owlCarousel({
-    //   loop: true,
-    //   margin: 2,
-    //   responsive: {
-    //     0: {
-    //       items: 2
-    //     },
-    //     600: {
-    //       items: 4
-    //     },
-    //     1000: {
-    //       items: 5
-    //     }
-    //   }
-    // });
-    console.log("yolo");
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        responsive: {
+            0: {
+                items: 2
+            },
+            600: {
+                items: 4
+            },
+            1000: {
+                items: 8
+            }
+        }
+    });
 
     //autocompletion JQUERY UI
 
