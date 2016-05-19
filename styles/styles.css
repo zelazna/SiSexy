@@ -239,6 +239,170 @@ nav.quick-access {
 }
 
 /* Fin formulaire 1 */
+.zone_formulaire {
+    width: 980px;
+    margin: 0 auto;
+}
+/* Debut formulaire 2 */
+.formulaire2 {
+    width: 435px;
+    padding: 30px;
+    background: #FFFFFF;
+    margin: 35px auto;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+    -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+    z-index: 9;
+    position: relative;
+    float: left;
+}
+
+.formulaire2 p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.formulaire2 h2 {
+    background: #e95f18;
+    color: #FFF;
+    font-size: 19px;
+    font-weight: 100;
+    padding: 20px;
+    margin: -30px -30px 30px -30px;
+    text-align: center;
+}
+
+.formulaire2 input[type="text"],
+.formulaire2 input[type="date"],
+.formulaire2 input[type="datetime"],
+.formulaire2 input[type="email"],
+.formulaire2 input[type="number"],
+.formulaire2 input[type="search"],
+.formulaire2 input[type="time"],
+.formulaire2 input[type="url"],
+.formulaire2 input[type="password"],
+.formulaire2 textarea,
+.formulaire2 select {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    margin-bottom: 30px;
+    font: 16px Arial, Helvetica, sans-serif;
+    height: 45px;
+}
+
+.formulaire2 input[type="button"],
+.formulaire2 input[type="submit"] {
+    background-color: #e95f18;
+    border: 1px solid #e95f18;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 8px 18px;
+    text-decoration: none;
+    margin-left: 155px;
+}
+
+.formulaire2 input[type="button"]:hover,
+.formulaire2 input[type="submit"]:hover {
+    background: linear-gradient(to bottom, #e95f18 5%, #e95f18 100%);
+    background-color: #e95f18;
+    margin: 0 auto;
+    margin-left: 155px;
+}
+
+/* Fin formulaire 2 */
+
+.type_mine {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Debut formulaire 2 */
+.formulaire3 {
+    width: 435px;
+    padding: 30px;
+    background: #FFFFFF;
+    margin: -370px auto;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+    -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.22);
+    z-index: 9;
+    position: relative;
+    float: right;
+}
+
+.formulaire3 p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.formulaire3 h2 {
+    background: #e95f18;
+    color: #FFF;
+    font-size: 19px;
+    font-weight: 100;
+    padding: 20px;
+    margin: -30px -30px 30px -30px;
+    text-align: center;
+}
+
+.formulaire3 input[type="text"],
+.formulaire3 input[type="date"],
+.formulaire3 input[type="datetime"],
+.formulaire3 input[type="email"],
+.formulaire3 input[type="number"],
+.formulaire3 input[type="search"],
+.formulaire3 input[type="time"],
+.formulaire3 input[type="url"],
+.formulaire3 input[type="password"],
+.formulaire3 textarea,
+.formulaire3 select {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    display: block;
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    background: transparent;
+    margin-bottom: 30px;
+    font: 16px Arial, Helvetica, sans-serif;
+    height: 45px;
+}
+
+.formulaire3 input[type="button"],
+.formulaire3 input[type="submit"] {
+    background-color: #e95f18;
+    border: 1px solid #e95f18;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 8px 18px;
+    text-decoration: none;
+    margin-left: 155px;
+}
+
+.formulaire3 input[type="button"]:hover,
+.formulaire3 input[type="submit"]:hover {
+    background: linear-gradient(to bottom, #e95f18 5%, #e95f18 100%);
+    background-color: #e95f18;
+    margin: 0 auto;
+    margin-left: 155px;
+}
+
+/* Fin formulaire 3 */
 
 #wrapper-contenu { /*Contenu page Photos, Musique, Vidéos */
     width: 980px;
