@@ -1,0 +1,135 @@
+$icon-font-path: '../fonts/';
+
+// bower:scss
+//@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+/* Space out content a bit */
+$couleurdetappette: pink;
+body {
+  background: $couleurdetappette;
+}
+
+/* Contenu du header */
+
+header {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.logo {
+  margin-top: 15px;
+  width: 200px;
+  float:left;
+}
+
+.recherche {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  outline: none;
+  display: block;
+  width: 40%;
+  margin-top: 35px;
+  margin-left: 135px;
+  padding-bottom: 5px;
+  border: none;
+  border-bottom: 2px solid #90a4ae;
+  background: transparent;
+  margin-bottom: 10px;
+  font: 16px Arial, Helvetica, sans-serif;
+  float:left;
+}
+
+.valider {
+  width: 20px;
+  height: 20px;
+  margin-top: 33px;
+  margin-left: -26px;
+  position: absolute;
+}
+
+.inner {
+  width: 1000px;
+  height: 80px;
+  margin: 0 auto;
+  padding-top: 17px;
+  padding-bottom: 5px;
+}
+
+
+nav.quick-access {
+  float: left;
+  height:40px;
+  margin-top: 20px;
+  margin-left: 50px;
+}
+
+.quick-access li {
+  float: left;
+  list-style-type:none;
+  display:inherit;
+  font-family:  "Arial";
+  font-size: 12px;
+}
+
+.quick-access ul {
+  padding: 0; margin: 0;
+  text-align: center; /* centrer le texte */
+}
+
+/* les a href */
+.quick-access a{
+  color : #000;
+  text-decoration:none;
+  display:block;
+  padding:10px 10px;
+  font-family:  "Arial";
+  cursor: pointer;
+}
+
+.icone-menu {
+  width: 25px;
+}
+.connexion {
+  color: #e95f18;
+}
+
+#menu {
+  background-color: #90a4ae;
+  width: 100%;
+}
+
+#sub-nav {
+  width: 80%;
+  height: 50px;
+  padding: 0;
+  margin-left: 20px;
+  text-align: center; /* centrer le texte */
+  margin: 0 auto;
+}
+
+#sub-nav li {
+  display: inline;
+  list-style: none;
+  width: 30px;
+}
+#sub-nav a {
+  display: inline-block;
+  margin-left: 23px;
+  text-decoration: none;
+  color: #FFF;
+  width: 65px;
+  line-height: 14px;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+#single {
+  margin-top: -5px;
+}
+
+.fond {
+  background-image: url(images/fond.png);
+}
+/* Fin du Header */
