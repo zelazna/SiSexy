@@ -1,5 +1,5 @@
 /* Contenu du header */
-body{
+body {
     font-family: 'Open Sans', sans-serif;
     color: #263238;
 }
@@ -149,7 +149,7 @@ nav.quick-access {
 }
 
 .post-title-contenu h1 {
-    width:100%;
+    width: 100%;
     font-size: 21px;
     color: #FFF;
     font-family: 'Open Sans', sans-serif;
@@ -567,17 +567,20 @@ nav.quick-access {
     font-family: 'Open Sans', sans-serif;
 
 }
-th{
+
+th {
     padding-top: 15px;
     border-right: solid 2px;
-    text-align:center;
-    vertical-align:top;
+    text-align: center;
+    vertical-align: top;
     font-weight: 300;
 }
-th:last-child{
+
+th:last-child {
     border-right: hidden;
 }
-.conseil strong{
+
+.conseil strong {
     font-size: 25px;
     font-weight: 600;
 }
@@ -863,4 +866,40 @@ footer {
     width: 325px;
     padding: 5px;
 }
+
+/*Effet Ripple*/
+
+.button {
+    background-color: #e95f18;
+    border: 1px solid #e95f18;
+    display: inline-block;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 14px;
+    padding: 8px 18px;
+    text-decoration: none;
+    margin-left: 155px;
+    overflow: hidden;
+}
+
+.ripple {
+    opacity: 1;
+    border-radius: 50%;
+    width: 2px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.3);
+    -webkit-animation-duration: 0.8s;
+    animation-duration: 0.8s;
+    -webkit-animation-name: ripple;
+}
+@keyframes ripple {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 1;
+        -webkit-transform: scale(100);
+    }
+}
+
 
