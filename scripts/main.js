@@ -160,11 +160,15 @@ $(document).ready(function () {
     });
 
     // Effect Ripple sur les bouttons
-
+//@fixme probleme du positionnement absolu
     $(".button").mouseenter(function (e) {
-        e.preventDefault();
+        var parentOffset = $(this).offset(),
+            cursorX = e.pageX - parentOffset.left,
+            cursorY = e.pageY - parentOffset.top;
+        console.log(cursorX);
         $(this).children(".ripple").remove();
-            $(this).append("<div class=\"ripple\"</div>");
+        $(this).append("<div class=\"ripple\"</div>");
+        $(this).children(".ripple").css({"left": cursorX + "px", "top": cursorY + "px"})
     })
 });
 
