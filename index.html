@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="assets/owl.carousel.2.0.0-beta.2.4/assets/owl.carousel.css">
     <link rel="stylesheet" href="styles/styles.css">
     <link href="assets/jquery-ui-1.11.4/jquery-ui.css" rel="stylesheet">
-    <link rel="icon" href="images/favicon.gif" />
+    <link rel="icon" href="images/favicon.gif"/>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300,800' rel='stylesheet' type='text/css'>
 
 </head>
@@ -22,9 +22,9 @@
 
         <nav class="quick-access">
             <ul>
-                <li><span class="icone-menu icon-shop2"></span><a href="">Magasins</a></li>
-                <li><span class="icone-menu icon-shopping-cart"></span><a href="">Panier</a></li>
-                <li><span class="icone-menu icon-profile orange"></span><a href="" class="connexion">Connexion</a>
+                <li><img src="images/profile.png" alt="" class="icone-menu"><a href="">Magasins</a></li>
+                <li><img src="images/shopping-cart.png" alt="" class="icone-menu"><a href="">Panier</a></li>
+                <li><img src="images/profile.png" alt="" class="icone-menu"><a href="" class="connexion">Connexion</a>
                 </li>
             </ul>
         </nav>
@@ -60,14 +60,38 @@
 
 </div>
 <!-- formulaire -->
-<div class="formulaire">
-    <h2>Par marque</h2>
-    <form>
-        <input type="text" name="field1" placeholder="Votre marque"/>
-        <input type="text" name="field2" placeholder="Modèle"/>
-        <input type="text" name="field3" placeholder="Motorisation"/>
-        <input type="button" value="Rechercher"/>
-    </form>
+<div class="zone_formulaire">
+    <div class="formulaire">
+        <h2>Par marque</h2>
+        <form>
+            <input type="text" name="field1" placeholder="Votre marque"/>
+            <input type="text" name="field2" placeholder="Modèle"/>
+            <input type="text" name="field3" placeholder="Motorisation"/>
+            <button class="button" type="button">Rechercher</button>
+        </form>
+    </div>
+
+    <div class="formulaire2">
+        <h2>Par carte grise</h2>
+        <form>
+            <p>Entrez le type mine de votre voiture</p>
+            <input type="text" name="field1" placeholder="Ex:DE14K2"/>
+            <p class="type_mine">Où trouver mon type mine ?</p>
+            <button class="button" type="button">Rechercher</button>
+        </form>
+    </div>
+
+
+    <div class="formulaire3">
+        <h2>Par immatriculation</h2>
+        <form>
+            <p>Entrez votre numéro d’immatriculation :e</p>
+            <input type="text" name="field1" placeholder="Ex:DE14K2"/>
+            <p>EX:AB - 123 - CD</p>
+            <button class="button" type="button">Rechercher</button>
+        </form>
+    </div>
+
 </div>
 
 <div id="wrapper-contenu">
@@ -79,11 +103,9 @@
             <form>
                 <h2>Trouvez un centre de <strong>montage </strong>:</h2>
                 <input type="text" name="field1" placeholder="Code postal"/>
-                <button type="submit" class="icon-right-arrow"></button>
+                <input type="button" value=">"/>
             </form>
         </div>
-
-
 
 
         <table class="conseil">
@@ -94,9 +116,6 @@
                 <th><strong>Paiement</strong><br>100% sécurisé</th>
             </tr>
         </table>
-
-
-
 
         <div class="description">
             <h1 class="description_text">Yakarouler le spécialiste de la vente de pièces auto à prix discount</h1>
@@ -114,7 +133,7 @@
     <div class="bloc_categorie">
 
         <div class="categorie">
-            <h2 class="categorie_text"><img src="" alt=""><span class="icon-bookmark"></span> Toutes les <strong>catégories</strong></h2>
+            <h2 class="categorie_text"><img src="" alt="">Toutes les catégories</h2>
 
             <!-- Categorie 1-->
 
@@ -226,9 +245,10 @@
     <!-- Formulaire_magasin -->
     <div id="formulaire_magasin" class="traitgauche">
         <iframe width="300" height="250" frameborder="0" style="border:0 ;margin: -30px"
-                src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ2yvlwt965kcRtFG1kccI6S0&key=AIzaSyAW4pAJk5gCLh3gYE8rzSywOhaT_ILgNWI" allowfullscreen></iframe>
-        <form class="formulaire_magasin_adress">
-            <h1 class="garage_text"><img src="" alt=""><span class="icon-cursor"></span><strong> Garages</strong> à proximité</h1>
+                src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ2yvlwt965kcRtFG1kccI6S0&key=AIzaSyAW4pAJk5gCLh3gYE8rzSywOhaT_ILgNWI"
+                allowfullscreen></iframe>
+        <form style="float: right">
+            <h1 class="garage_text"><img src="" alt="">Garages à proximité</h1>
             <h2 class="garage_text2">Ouvert de 8h à 20h</h2>
             <p><strong>Pièce Autoto Yakarouler</strong></p>
             <p>100 Avenue André Morizet</p>
@@ -236,7 +256,6 @@
             <p>01 70 44 75 75</p>
 
         </form>
-
     </div>
 
 
@@ -245,10 +264,9 @@
         <form>
             <h2>Abonnez-vous à la <strong>newsletter </strong></h2>
             <input type="text" name="field1" placeholder="Ex:email@mail.com"/>
-            <button type="submit" class="icon-right-arrow"></button>
+            <input type="button" value=">"/>
         </form>
     </div>
-
 
 
 </div><!-- fin wrapper -->
