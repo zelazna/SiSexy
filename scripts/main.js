@@ -3,7 +3,7 @@ $(document).ready(function () {
     // Script du menu / carroussel
 
     $('.owl-carousel').owlCarousel({
-
+        responsiveClass: true,
         responsive: {
             0: {
                 items: 4
