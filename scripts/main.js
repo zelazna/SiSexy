@@ -170,7 +170,9 @@ $(document).ready(function () {
         $(this).children(".ripple").css({"left": cursorX + "px", "top": cursorY + "px"})
     });
 
-    //
+    //Effet Switch de formulaires
+
+    $(".formulaire2")
 });
 
 
