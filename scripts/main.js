@@ -172,17 +172,6 @@ $(document).ready(function () {
 
     //Effet Switch de formulaires
     
-
-    // Effect Ripple sur les bouttons
-//@fixme probleme du positionnement absolu
-    $(".button").mouseenter(function (e) {
-        var parentOffset = $(this).offset(),
-            cursorX = e.pageX - parentOffset.left,
-            cursorY = e.pageY - parentOffset.top;
-        $(this).children(".ripple").remove();
-        $(this).append("<div class=\"ripple\"</div>");
-        $(this).children(".ripple").css({"left": cursorX + "px", "top": cursorY + "px"})
-    })
 });
 
 
