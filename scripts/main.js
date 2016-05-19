@@ -3,6 +3,7 @@ $(document).ready(function () {
     // Script du menu / carroussel
 
     $('.owl-carousel').owlCarousel({
+        responsiveClass: true,
         responsive: {
             0: {
                 items: 2
@@ -172,7 +173,6 @@ $(document).ready(function () {
 
     //Effet Switch de formulaires
 
-    $(".formulaire2")
 });
 
 
