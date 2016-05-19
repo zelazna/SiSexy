@@ -1438,6 +1438,7 @@ footer {
     opacity: 0;
     width: 100px;
     height: 80px;
+    cursor: pointer;
 }
 
 #next {
@@ -1448,6 +1449,7 @@ footer {
     right: 330px;
     width: 100px;
     height: 80px;
+    cursor: pointer;
 }
 
 
