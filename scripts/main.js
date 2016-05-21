@@ -3,12 +3,19 @@ $(document).ready(function () {
     // Script du menu / carroussel
 
     $('.owl-carousel').owlCarousel({
+        responsiveClass: true,
         responsive: {
             0: {
                 items: 4
             },
             600: {
                 items: 5
+            },
+            768: {
+                items: 5
+            },
+            800: {
+                items: 6
             },
             1000: {
                 items: 11
